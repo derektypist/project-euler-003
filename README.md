@@ -33,3 +33,33 @@ As a user, I expect `largestPrimeFactor(13195)` to return 29.
 
 As a user, I expect `largestPrimeFactor(600851475143)` to return 6857.
 
+**Information Architecture**
+
+The function `largestPrimeFactor(number)` returns a number (integer), where `number` is between 2 and 999999999999.
+
+## Features
+
+Allows the user to enter a number as well as seeing the largest prime factor of that number.  For example, if the number was 13195, the largest prime factor is 29.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5,CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-003) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
