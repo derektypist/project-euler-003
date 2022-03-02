@@ -8,7 +8,7 @@ function getNumberInfo() {
     if (isNaN(num) || num.toString().length == 0 || num<2 || num>999999999999 || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 2 and 999999999999.`
     } else {
-        txt += `You have entered the number ${num}.`;
+        txt += `You have entered the number ${num}. <p>`;
         txt += `Largest Prime Factor of ${num} is ${largestPrimeFactor(num)}.`
     }
 
