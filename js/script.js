@@ -15,3 +15,23 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to return the largest prime factor of a given number
+    largestPrimeFactor(13195) returns 29
+    largestPrimeFactor(161) returns 23
+*/
+function largestPrimeFactor(number) {
+    let prime = 1;
+    let i = 2;
+    while (i*i <= number) {
+        while (number%i == 0) {
+            prime = i;
+            number = number/i;
+        }
+        i += 1;
+    }
+
+    if (number > 1) prime = number;
+    return prime;
+}
