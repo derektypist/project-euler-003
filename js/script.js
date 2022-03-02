@@ -35,3 +35,9 @@ function largestPrimeFactor(number) {
     if (number > 1) prime = number;
     return prime;
 }
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("numinfo").innerHTML = txt;
+}
